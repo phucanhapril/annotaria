@@ -1,0 +1,192 @@
+@prefix ao: <http://localhost/annotaria/AnnOtaria/> .
+
+@prefix aop: <http://localhost/annotaria/AnnOtaria/person/> .
+
+@prefix dcterms: <http://purl.org/dc/terms/> . 
+@prefix fabio: <http://purl.org/spar/fabio/> . # FaBiO, the FRBR-aligned Bibliographic Ontology, is an ontology for recording and publishing on the Semantic Web bibliographic records of scholarly endeavours. It forms part of SPAR, a suite of Semantic Publishing and Referencing Ontologies. Other SPAR ontologies are described at http://purl.org/spar/
+@prefix foaf: <http://xmlns.com/foaf/0.1/> . # OAF is a project devoted to linking people and information using the Web
+@prefix frbr: <http://purl.org/vocab/frbr/core#> .
+@prefix oa: <http://www.w3.org/ns/oa#> . # L'Open Annotazione Nucleo Data Model specifica un framework per la creazione di associazioni tra risorse correlate, annotazioni, utilizzando una metodologia conforme al Architettura del World Wide Web
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> . # a collection of terms that webmasters can use to markup their pages to improve the display of search results.
+@prefix sem: <http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+########################################################
+# FRBR Works
+########################################################
+ao:BMC_Geriatr_2009_Jul_27_9_31 a fabio:Work ;
+    fabio:hasPortrayal ao:BMC_Geriatr_2009_Jul_27_9_31.html ; # is a rappresentation of document html
+    frbr:realization ao:BMC_Geriatr_2009_Jul_27_9_31_ver1 . # t. ognibene insert a version of document after the teacher said that its is wrong - the html file dosen't change
+
+ao:Adv_Virol_2012_Apr_2_2012_803535 a fabio:Work ; 
+    fabio:hasPortrayal ao:Adv_Virol_2012_Apr_2_2012_803535.html ;
+    frbr:realization ao:Adv_Virol_2012_Apr_2_2012_803535_ver1 .
+
+ao:BMC_Bioinformatics_2008_Jan_23_9_40 a fabio:Work ;
+    fabio:hasPortrayal ao:BMC_Bioinformatics_2008_Jan_23_9_40.html ;
+    frbr:realization ao:BMC_Bioinformatics_2008_Jan_23_9_40_ver1 .
+
+ao:BMC_Bioinformatics_2008_Sep_30_9_405 a fabio:Work ;
+    fabio:hasPortrayal ao:BMC_Bioinformatics_2008_Sep_30_9_405.html ;
+    frbr:realization ao:BMC_Bioinformatics_2008_Sep_30_9_405_ver1 .
+
+ao:BMC_Cardiovasc_Disord_2012_Jan_31_12_2 a fabio:Work ;
+    fabio:hasPortrayal ao:BMC_Cardiovasc_Disord_2012_Jan_31_12_2.html ;
+    frbr:realization ao:BMC_Cardiovasc_Disord_2012_Jan_31_12_2_ver1 .
+
+ao:BMC_Geriatr_2010_Jan_24_10_3 a fabio:Work ;
+    fabio:hasPortrayal ao:BMC_Geriatr_2010_Jan_24_10_3.html ;
+    frbr:realization ao:BMC_Geriatr_2010_Jan_24_10_3_ver1 .
+
+ao:BMC_Geriatr_2010_May_27_10_28 a fabio:Work ;
+    fabio:hasPortrayal ao:BMC_Geriatr_2010_May_27_10_28.html ;
+    frbr:realization ao:BMC_Geriatr_2010_May_27_10_28_ver1 .
+
+ao:BMC_Geriatr_2012_Jan_12_12_2 a fabio:Work ;
+    fabio:hasPortrayal ao:BMC_Geriatr_2012_Jan_12_12_2.html ;
+    frbr:realization ao:BMC_Geriatr_2012_Jan_12_12_2_ver1 .
+
+ao:BMC_Ophthalmol_2011_Jan_21_11_2 a fabio:Work ;
+    fabio:hasPortrayal ao:BMC_Ophthalmol_2011_Jan_21_11_2.html ;
+    frbr:realization ao:BMC_Ophthalmol_2011_Jan_21_11_2_ver1 .
+
+ao:BMC_Ophthalmol_2013_Mar_28_13_9 a fabio:Work ;
+    fabio:hasPortrayal ao:BMC_Ophthalmol_2013_Mar_28_13_9.html ;
+    frbr:realization ao:BMC_Ophthalmol_2013_Mar_28_13_9_ver1 .
+
+########################################################
+# FRBR Expressions the version are wrong
+########################################################
+
+ao:Adv_Virol_2012_Apr_2_2012_803535_ver1 a fabio:Expression ; 
+    fabio:hasRepresentation ao:Adv_Virol_2012_Apr_2_2012_803535.html .
+
+ao:BMC_Bioinformatics_2008_Jan_23_9_40_ver1 a fabio:Expression ;
+    fabio:hasRepresentation ao:BMC_Bioinformatics_2008_Jan_23_9_40.html .
+
+ao:BMC_Bioinformatics_2008_Sep_30_9_405_ver1 a fabio:Expression ;
+    fabio:hasRepresentation ao:BMC_Bioinformatics_2008_Sep_30_9_405.html .
+
+ao:BMC_Cardiovasc_Disord_2012_Jan_31_12_2_ver1 a fabio:Expression ;
+    fabio:hasRepresentation ao:BMC_Cardiovasc_Disord_2012_Jan_31_12_2.html .
+
+ao:BMC_Geriatr_2009_Jul_27_9_31_ver1 a fabio:Expression ;
+    fabio:hasRepresentation ao:BMC_Geriatr_2009_Jul_27_9_31.html .
+
+ao:BMC_Geriatr_2010_Jan_24_10_3_ver1 a fabio:Expression ;
+    fabio:hasRepresentation ao:BMC_Geriatr_2010_Jan_24_10_3.html .
+
+ao:BMC_Geriatr_2010_May_27_10_28_ver1 a fabio:Expression ;
+    fabio:hasRepresentation ao:BMC_Geriatr_2010_May_27_10_28.html .
+
+ao:BMC_Geriatr_2012_Jan_12_12_2_ver1 a fabio:Expression ;
+    fabio:hasRepresentation ao:BMC_Geriatr_2012_Jan_12_12_2.html .
+
+ao:BMC_Ophthalmol_2011_Jan_21_11_2_ver1 a fabio:Expression ;
+    fabio:hasRepresentation ao:BMC_Ophthalmol_2011_Jan_21_11_2.html .
+
+ao:BMC_Ophthalmol_2013_Mar_28_13_9_ver1 a fabio:Expression ;
+    fabio:hasRepresentation ao:BMC_Ophthalmol_2013_Mar_28_13_9.html .
+
+########################################################
+# FRBR Items every html files are fabio item 
+########################################################
+
+ao:Adv_Virol_2012_Apr_2_2012_803535.html a fabio:Item .
+
+ao:BMC_Bioinformatics_2008_Jan_23_9_40.html a fabio:Item .
+
+ao:BMC_Bioinformatics_2008_Sep_30_9_405.html a fabio:Item .
+
+ao:BMC_Cardiovasc_Disord_2012_Jan_31_12_2.html a fabio:Item .
+
+ao:BMC_Geriatr_2010_Jan_24_10_3.html a fabio:Item .
+
+ao:BMC_Geriatr_2010_May_27_10_28.html a fabio:Item .
+
+ao:BMC_Geriatr_2012_Jan_12_12_2.html a fabio:Item .
+
+ao:BMC_Ophthalmol_2011_Jan_21_11_2.html a fabio:Item .
+
+ao:BMC_Ophthalmol_2013_Mar_28_13_9.html a fabio:Item .
+
+ao:BMC_Geriatr_2009_Jul_27_9_31.html a fabio:Item .
+
+########################################################
+# People
+########################################################
+
+aop:fabio-vitali
+    schema:email "fabio.vitali@cs.unibo.it" ; # fabio has an email,  
+    foaf:name "Pinco Pallino" . # fabio has a name
+
+aop:james-swetnam
+    foaf:name "James Swetnam" .
+
+aop:david-almond
+    foaf:name "David Almond" .
+
+aop:david-almond2
+    schema:email "david.almond@nyumc.org" ;
+    foaf:name "David Almond" .
+
+########################################################
+# Annotations
+########################################################
+
+[] a oa:Annotation ; # a blank node is an annotation that have a: 
+    rdfs:label "Title" ;			# title
+    oa:annotatedAt "2014-05-21T18:00" ;		# a date
+    oa:annotatedBy aop:fabio-vitali ;		# author
+    oa:hasBody [ a rdf:Statement ;		# a body that is a statment:
+            rdf:predicate fabio:hasTitle ;				# this statment is:
+            rdf:subject ao:BMC_Ophthalmol_2013_Mar_28_13_9_ver1 ] ;
+    oa:hasTarget ao:BMC_Ophthalmol_2013_Mar_28_13_9.html . # a target (the article)
+
+[] a oa:Annotation ;
+    rdfs:label "Subject" ;
+    oa:annotatedAt "2015-09-08T16:32" ;
+    oa:annotatedBy aop:fabio-vitali ;
+    oa:hasBody [ a rdf:Statement ;
+            rdf:object <http://dbpedia.org/resource/Medicine> ;
+            rdf:predicate fabio:hasSubjectTerm ;
+            rdf:subject ao:BMC_Bioinformatics_2008_Jan_23_9_40_ver1 ] ;
+    oa:hasTarget ao:BMC_Bioinformatics_2008_Jan_23_9_40.html .
+
+[] a oa:Annotation ;
+    rdfs:label "Comment" ;
+    oa:annotatedAt "2014-10-06T10:15" ;
+    oa:annotatedBy aop:james-swetnam ;
+    oa:hasBody [ a rdf:Statement ;
+            rdf:object "An interesting article concerning..." ;
+            rdf:predicate schema:comment ;
+            rdf:subject ao:BMC_Geriatr_2009_Jul_27_9_31 ] ;
+    oa:hasTarget ao:BMC_Geriatr_2009_Jul_27_9_31.html .
+
+[] a oa:Annotation ;
+    rdfs:label "Person" ;
+    oa:annotatedAt "2014-07-06T09:57" ;
+    oa:annotatedBy aop:james-swetnam ;
+    oa:hasBody [ a rdf:Statement ;
+            rdf:object <http://dbpedia.org/resource/James_Dewey_Watson> ;
+            rdf:predicate sem:denotes ;
+            rdf:subject <ao:BMC_Cardiovasc_Disord_2012_Jan_31_12_2_ver1#div34-12-21> ] ;
+    oa:hasTarget [ a oa:SpecificResource ;
+            oa:hasSelector [ a oa:FragmentSelector ;
+                    rdf:value "div34" ;
+                    oa:start "12"^^xsd:nonNegativeIntegeroa ;
+                    oa:end "21"^^xsd:nonNegativeInteger ] ;
+            oa:hasSource ao:BMC_Cardiovasc_Disord_2012_Jan_31_12_2.html ] .
+
+[] a oa:Annotation ;
+    ao:type "hasAuthor" ;
+    oa:annotatedAt "2014-10-10T11:04" ;
+    oa:annotatedBy aop:david-almond ;
+    oa:hasBody [ a rdf:Statement ;
+            rdf:object aop:david-almond;
+            rdf:predicate dcterms:creator;
+            rdf:subject ao:BMC_Bioinformatics_2008_Jan_23_9_40 ] ;
+    oa:hasTarget ao:BMC_Bioinformatics_2008_Jan_23_9_40.html .

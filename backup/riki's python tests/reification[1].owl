@@ -1,0 +1,11 @@
+@prefix ns1: <http://www.essepuntato.it/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:me ns1:believes [ a rdf:Statement ;
+            rdf:object 30 ;
+            rdf:predicate <http://xmlns.com/foaf/0.1/age> ;
+            rdf:subject <http://www.essepuntato.it/2013/citalo/test/data/person5> ] .
+

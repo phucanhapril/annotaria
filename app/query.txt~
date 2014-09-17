@@ -1,0 +1,70 @@
+PREFIX  ao: <http://vitali.web.cs.unibo.it/AnnOtaria/>
+PREFIX  aop: <http://vitali.web.cs.unibo.it/AnnOtaria/person/>
+PREFIX  dcterms: <http://purl.org/dc/terms/>
+PREFIX  fabio: <http://purl.org/spar/fabio/>
+PREFIX  foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX  frbr: <http://purl.org/vocab/frbr/core#>
+PREFIX  oa: <http://www.w3.org/ns/oa#>
+PREFIX  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX  schema: <http://schema.org/>
+PREFIX  sem: <http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#>
+PREFIX  xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX  xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX  cito: <http://www.purl.org/spar/cito/>
+PREFIX  cnt: <http://www.w3.org/2011/content#>
+
+select ?s ?p ?o
+where {
+	{	?s oa:hasTarget ao:BMC_Ophthalmol_2008_Aug_17_8_15.html .
+		?s ?p ?o .
+	}
+	union
+	{ 	?s oa:hasTarget ?target .
+		?target oa:hasSource ao:BMC_Ophthalmol_2008_Aug_17_8_15.html .
+		?s ?p ?o .
+	}
+	union
+	{	?s oa:hastarget ?target .
+		?target oa:hasSource ao:BMC_Ophthalmol_2008_Aug_17_8_15.html .
+		?target oa:hasSelector ?selector .
+		?selector ?p ?o .
+	}
+	union
+	{	?s oa:hasTarget ao:BMC_Ophthalmol_2008_Aug_17_8_15.html .
+		?s oa:hasBody ?body .
+		?body rdf:predicate ?p .
+		?body rdf:object ?o .
+	}
+	union
+	{	?s oa:hasTarget ?target .
+		?target oa:hasSource ao:BMC_Ophthalmol_2008_Aug_17_8_15.html .
+		?s oa:hasBody ?body .
+		?body rdf:predicate ?p .
+		?body rdf:object ?o .
+	}
+	union
+	{	?s oa:hasTarget ao:BMC_Ophthalmol_2008_Aug_17_8_15.html .
+  		?s oa:hasBody ?body .
+  		?body a cnt:ContentAsText .
+  		?body ?p ?o .
+	}
+	union 
+	{	?s oa:hasTarget ?target .
+  		?target oa:hasSource ao:BMC_Ophthalmol_2008_Aug_17_8_15.html .
+  		?s oa:hasBody ?body .
+  		?body a cnt:ContentAsText .
+  		?body ?p ?o .
+	}
+	union
+	{	?s oa:hasTarget ao:BMC_Ophthalmol_2008_Aug_17_8_15.html .
+		?s oa:annotatedBy ?person .
+		?person ?p ?o .
+	}
+	union
+	{ 	?s oa:hasTarget ?target .
+		?target oa:hasSource ao:BMC_Ophthalmol_2008_Aug_17_8_15.html .
+		?s oa:annotatedBy ?person .
+		?person ?p ?o . 
+	}
+}

@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<!-- Progetto AnnOtaria
+     Tecnologie Web 2014
+     Riccardo Candido e April Tran -->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>AnnOtaria</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="my-navbar">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- Icon and brand name (id="icon") -->
+            <a href="#"><img src="icon.png" alt="annotaria-icon" class="img-responsive" id="icon"></a>
+            <a class="navbar-brand" href="#">AnnOtaria</a>
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <!-- Options, help, about sections -->
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#" role="button" data-toggle="modal" data-target="#docs-box">Articles</a></li>
+                <li><a href="#" role="button" data-toggle="modal" data-target="#options">Options</a></li>
+                <li><a href="#" role="button" data-toggle="modal" data-target="#help">Help</a></li>
+                <li><a href="#" role="button" data-toggle="modal" data-target="#about">About</a></li>
+            </ul>
+
+            <!-- Reader/annotator mode (id="mode")-->
+            <ul class="nav navbar-nav navbar-right">
+                <li id="ann-css"><a href="#" id="name-change" style="display: none;">Annotator</a></li>
+                <li><button type="button" class="btn btn-default btn-md btn-note" id="note-add" style="display: none;">
+                    <span class="glyphicon glyphicon-plus"></span> Add
+                </button></li>
+                <li><button type="button" class="btn btn-default btn-md btn-note" id="note-save" style="display: none;">
+                    <span class="glyphicon glyphicon-floppy-save"></span> Save
+                </button></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="mode"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Reader Mode</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" id="reader-mode"><span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;Reader Mode</a></li>
+                        <li><a href="#" id="annotator-mode"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;Annotator Mode</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- App -->
+<div class="container" id="app">
+    <div class="row clearfix">
+        <!-- Sidebar: Annotations and filter (id="sidebar") -->
+        <div class="col-md-3" id="sidebar">
+            <div class="row clearfix">
+                <!-- Tabs header -->
+                <ul class="nav nav-tabs">
+                    <li class="active" id="tab0"><a href="#notes" data-toggle="tab">Annotations</a></li>
+                    <li id="tab1"><a href="#filter" data-toggle="tab">Filter</a></li>
+                    <li id="tab2"><a href="#edit" data-toggle="tab" id="editHead">Edit</a></li>
+                </ul>
+                <div class="tab-content">
+                    <!-- Edit Unsaved Note tab -->
+                    <div class="tab-pane border border-notop" id="edit">
+                        <div class="text-center breath">
+                            <div class="panel panel-info">
+                                <div class="panel-body">
+                                    Unsaved Note
+                                </div>
+                                <div id="unsaved-notes" class="panel-footer scroll">
+                                    <ul class="list-group">
+                                        <!-- JS Ajax invocation to retrieve doc's notes -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Annotations tab -->
+                    <div class="tab-pane active border border-notop" id="notes">
+                        <div class="text-center breath">
+                            <div class="panel panel-info">
+                                <div class="panel-body">
+                                    Document Info
+                                </div>
+                                <div id="doc-notes" class="panel-footer scroll">
+                                    <ul class="list-group">
+                                        <!-- JS Ajax invocation to retrieve doc's notes -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Filter tab -->
+                    <div class="tab-pane  border border-notop" id="filter">
+                        <form role="form">
+                            <!-- Default panel contents -->
+                            <!-- List group -->
+                            <div class="bs-example">
+                                <div class="panel-group" id="accordion">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Filter Type</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in">
+                                            <div class="bs-example collapse-margin">
+                                                <div class="panel-group" id="accordion1">
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                                                                    Entire Document
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapseOne1" class="panel-collapse collapse in">
+                                                            <div class="panel-body">
+                                                                <ul class="list-group" id="typeEntireList" >
+                                                                    <li class="list-group-item no-border" ><input onClick="AddRemoveNotes(this.id,'.hasAuthor')" id="filter-hasAuthor" type="checkbox"><span class="checkBox-space">Author</span></li>
+                                                                    <li class="list-group-item no-border" ><input onClick="AddRemoveNotes(this.id,'.hasPublisher')" id="filter-hasPublisher" type="checkbox"><span class="checkBox-space">Publisher</span></li>
+                                                                    <li class="list-group-item no-border" ><input onClick="AddRemoveNotes(this.id,'.hasPublisherYear')" id="filter-hasPublisherYear" type="checkbox"><span class="checkBox-space">Publishing Year</span></li>
+                                                                    <li class="list-group-item no-border" ><input onClick="AddRemoveNotes(this.id,'.hasTitle')" id="filter-hasTitle" type="checkbox"><span class="checkBox-space">Title</span></li>
+                                                                    <li class="list-group-item no-border" ><input onClick="AddRemoveNotes(this.id,'.hasAbstract')" id="filter-hasAbstract" type="checkbox"><span class="checkBox-space">Abstract</span></li>
+                                                                    <li class="list-group-item no-border" ><input onClick="AddRemoveNotes(this.id,'.hasShortTitle')" id="filter-hasShortTitle" type="checkbox"><span class="checkBox-space">Short Title</span></li>
+                                                                    <li class="list-group-item no-border" ><input onClick="AddRemoveNotes(this.id,'.hasArticleComment')" id="filter-hasArticleComment" type="checkbox"><span class="checkBox-space">Comment</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="bs-example collapse-margin">
+                                                <div class="panel-group" id="accordion2">
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">External Annotations</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapseTwo" class="panel-collapse collapse in">
+                                                            <div class="panel-body">
+                                                                <!-- External annotations -->
+                                                                <ul class="list-group" id="typeFragmentExList">
+                                                                    <li class="list-group-item no-border" ><input onClick="AddRemoveClass(this.id,'.denotesPerson','edit-denotesPerson')" id="filter-denotesPerson" type="checkbox"><span class="edit-denotesPerson checkBox-space">Person</span></li>
+                                                                    <li class="list-group-item no-border" ><input onClick="AddRemoveClass(this.id,'.denotesPlace','edit-denotesPlace')" id="filter-denotesPlace" type="checkbox"><span class="edit-denotesPlace checkBox-space">Place</span></li>
+                                                                    <li class="list-group-item no-border" ><input onClick="AddRemoveClass(this.id,'.denotesDisease','edit-denotesDisease')" id="filter-denotesDisease" type="checkbox"><span class="edit-denotesDisease checkBox-space">Disease</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Topic annotations -->
+                                            <div class="bs-example collapse-margin">
+                                                <div class="panel-group" id="accordionThree">
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordionThree" href="#collapseThree">Topic</a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapseThree" class="panel-collapse collapse in">
+                                                            <div class="panel-body">
+                                                                <ul class="list-group" id="typeFragmentTopicList">
+                                                                    <li class="list-group-item no-border"><input onClick="AddRemoveClass(this.id,'.hasSubject','edit-hasSubject')" id="filter-hasSubject" type="checkbox"><span class="edit-hasSubject checkBox-space">Subject</span></li>
+                                                                    <li class="list-group-item no-border"><input onClick="AddRemoveClass(this.id,'.hasDbpedia','edit-hasDbpedia')" id="filter-hasDbpedia" type="checkbox"><span class="edit-hasDbpedia checkBox-space">DBPedia Resource</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Quality Annotations -->
+                                            <div class="bs-example collapse-margin">
+                                                <div class="panel-group" id="accordionFour">
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordionFour" href="#collapseFour">
+                                                                    Quality
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapseFour" class="panel-collapse collapse in">
+                                                            <div class="panel-body">
+                                                                <ul class="list-group" id="typeFragmentQualityList">
+                                                                    <li class="list-group-item no-border"><input onClick="AddRemoveClass(this.id,'.hasClarityScore','edit-hasClarityScore')" id="filter-hasClarityScore" type="checkbox"><span class="edit-hasClarityScore checkBox-space">Clarity Score</span></li>
+                                                                    <li class="list-group-item no-border"><input onClick="AddRemoveClass(this.id,'.hasOriginalityScore','edit-hasOriginalityScore')" id="filter-hasOriginalityScore" type="checkbox"><span class="edit-hasOriginalityScore checkBox-space">Originality Score</span></li>
+                                                                    <li class="list-group-item no-border"><input onClick="AddRemoveClass(this.id,'.note-save','edit-hasFormattingScore')" id="filter-hasFormattingScore" type="checkbox"><span class="edit-hasFormattingScore checkBox-space">Formatting Score</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Citation annotations -->
+                                            <div class="bs-example collapse-margin">
+                                                <div class="panel-group" id="accordionSeven">
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordionSeven" href="#collapseSeven">
+                                                                    Citation
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapseSeven" class="panel-collapse collapse in">
+                                                            <div class="panel-body">
+                                                                <ul class="list-group" id="typeFragmentCitationList">
+                                                                    <li class="list-group-item no-border"><input onClick="AddRemoveClass(this.id,'.hasCitation','edit-hasCitation')" id="filter-hasCitation" type="checkbox"><span class="edit-hasCitation checkBox-space">Citation</span></li>
+                                                                    <li class="list-group-item no-border"><input onClick="AddRemoveClass(this.id,'.hasComment','edit-hasComment')" id="filter-hasComment" type="checkbox"><span class="edit-hasComment checkBox-space">Comment</span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bs-example">
+                                <div class="panel-group" id="accordionFive">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordionFive" href="#collapseFive">Author</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseFive" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                                                    <input type="text" class="form-control" placeholder="Author name's" id="who-author">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Default panel contents -->
+                            <div class="bs-example">
+                                <div class="panel-group" id="accordionSix">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordionSix" href="#collapseSix">Date</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseSix" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                                                    <input type="text" class="form-control" placeholder="Date" id="when-date">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Document area (id="doc") -->
+        <div class="col-md-9" id="doc">
+            <div class="jumbotron" id="doc-title">
+                <h2><!-- Document title --></h2>
+            </div>
+            <div id="doc-display">
+	            <!-- Document display  -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar ------------------------------------------------------------------------------------------------------->
+<!-- Navbar: Docs -->
+<div class="modal fade" id="docs-box" tabindex="-1" role="dialog" aria-labelledby="Documents" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="modal-docs">Open New Article</h4>
+            </div>
+            <!-- Document List (id="docs-list") -->
+            <div class="modal-body scroll" id="docs-list">
+                <ul id="list">
+                    <!-- Ajax call in JS to retrieve available docs -->
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar: Options -->
+<!-- ***********ADD DISPLAY OPTIONS SUCH AS TEXT SIZE, SCREEN COLOR, ETC.******* -->
+<div class="modal fade" id="options" tabindex="-1" role="dialog" aria-labelledby="Options" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="modal-options">Display Options</h4>
+            </div>
+            <div class="modal-body">
+                <p>...</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Save Options</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar: Help -->
+<!-- **************ADD INSTRUCTIONS ON HOW TO USE APPLICATION **************** -->
+<div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="Help" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="modal-help">How to Use AnnOtaria</h4>
+            </div>
+            <div class="modal-body">
+                <p>...</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar: About -->
+<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="About AnnOtaria" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="modal-about">About AnnOtaria</h4>
+            </div>
+            <div class="modal-body">
+                <p>Developed for Web Technologies course at the University of Bologna, School of Information Technology.</p>
+                <p>© 2014 Riccardo Candido and April Tran. All rights reserved.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pop ups -------------------------------------------------------------------------------------------------------------->
+<!-- Annotator mode: Name prompt -->
+<div class="modal fade" id="name-prompt" tabindex="-1" role="dialog" aria-labelledby="Annotator Name" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="modal-annotate">Annotator Mode</h4>
+            </div>
+            <div class="modal-body">
+                <p>Please enter your information below:</p>
+                <input type="text" class="form-control" id="name" placeholder="Name (REQUIRED)">
+                <p></p>
+                <input type="email" class="form-control" id="email" placeholder="Email (REQUIRED)">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal" id="name-save">Continue</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Reader mode: Save? -->
+<div class="modal fade" id="save-prompt" tabindex="-1" role="dialog" aria-labelledby="Save" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="modal-save">Save Warning</h4>
+            </div>
+            <div class="modal-body">
+                <p>You will lose any unsaved work if you enter Reader Mode now. Do you wish to continue?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal" id="return-ann">Return to Annotator Mode</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="cont-read">Continue anyway</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Alert Modal -->
+<div class="modal fade" id="alert-mod" tabindex="-1" role="dialog" aria-labelledby="Alert" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="alert-title">ERROR</h4>
+            </div>
+            <div class="modal-body" id="alert-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Alert Modal True Flase -->
+<div class="modal fade" id="alert-mod-true-false" tabindex="-1" role="dialog" aria-labelledby="Alert" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="alert-title-trueFlase">QUESTION</h4>
+            </div>
+            <div class="modal-body" id="alert-body-trueFlase"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal" id="alertTrueFlaseYes">Yes</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal" id="alertTrueFlaseNo">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Annotation modals --------------------------------------------------------------------------------------------------------->
+<!-- Annotator mode: Add entire document annotation -->
+<div class="modal fade" id="add-note-entire" tabindex="-1" role="dialog" aria-labelledby="Entire Doc Note" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Add Annotation</h4>
+            </div>
+            <div class="modal-body">
+                <center><p>You are adding an annotation to the <b>entire article</b>. To add an annotation to a specific part,
+                    select a segment before clicking Add.</p>
+                <p><b>Select your annotation type. </b>For more information on types, select Help from the navigation bar.</p>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onClick="openWidget(this.id)" id="hasAuthor">Author</button>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onClick="openWidget(this.id)" id="hasPublisher">Publisher</button>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onClick="openWidget(this.id)" id="hasPublisherYear">Publishing Year</button>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onClick="openWidget(this.id)" id="hasTitle">Title</button>
+                    <p></p>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onClick="openWidget(this.id)" id="hasAbstract">Abstract</button>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onClick="openWidget(this.id)" id="hasShortTitle">Short Title</button>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" onClick="openWidget(this.id)" id="hasArticleComment">Comment</button></center>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Annotator mode: Add fragment annotation -->
+<div class="modal fade" id="add-note-frag" tabindex="-1" role="dialog" aria-labelledby="Fragment Note" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Add Annotation</h4>
+            </div>
+            <div class="modal-body">
+                <center><p><b>Choose an annotation type for your selection. </b>For more information on annotation types, select Help from the navigation bar.</p></center>
+                <div class="container-fluid">
+                    <div class="col-md-3">
+                        <p><b>External Annotation</b></p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" onClick="openWidget(this.id)" id="denotesPerson">Person</button><p></p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" onClick="openWidget(this.id)" id="denotesPlace">Place</button><p></p>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" onClick="openWidget(this.id)" id="denotesDisease">Disease</button>
+                    </div>
+                    <div class="col-md-3">
+                        <p><b>Topic Annotation</b></p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal" onClick="openWidget(this.id)" id="hasSubject">Subject</button><p></p>
+                        <button type="button" class="btn btn-success" data-dismiss="modal" onClick="openWidget(this.id)" id="hasDbpedia">DBPedia</button>
+                    </div>
+                    <div class="col-md-3">
+                        <p><b>Quality Score Annotation</b></p>
+                        <button type="button" class="btn btn-warning" data-dismiss="modal" onClick="openWidget(this.id)" id="hasClarityScore">Clarity</button><p></p>
+                        <button type="button" class="btn btn-warning" data-dismiss="modal" onClick="openWidget(this.id)" id="hasOriginalityScore">Originality</button><p></p>
+                        <button type="button" class="btn btn-warning" data-dismiss="modal" onClick="openWidget(this.id)" id="hasFormattingScore">Formatting</button>
+                    </div>
+                    <div class="col-md-3">
+                        <p><b>Citation Annotation</b></p>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" onClick="openWidget(this.id)" id="hasCitation">Citation</button><p></p>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal" onClick="openWidget(this.id)" id="hasComment">Comment</button>
+                    </div>
+                </div>
+                <p></p><p></p>
+                <center><button type="button" class="btn btn-default btn-info" data-toggle="modal" data-target="#add-note-entire" data-dismiss="modal">Add an annotation to the entire article instead</button></center>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Create Annotation -------------------------------------------------------------------------------------------------->
+<!-- Short text -->
+<div class="modal fade" id="create-short" tabindex="-1" role="dialog" aria-labelledby="Create Note" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="short-title-mod"></h4>
+            </div>
+            <div class="modal-body">
+                <p id="short-body"></p>
+                <input type="text" maxlength="80" class="form-control" id="short-ip" placeholder="Maximum 80 characters">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="short-btn">Create</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="short-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Long text -->
+<div class="modal fade" id="create-long" tabindex="-1" role="dialog" aria-labelledby="Create Note" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="long-title"></h4>
+            </div>
+            <div class="modal-body">
+                <p id="long-body"></p>
+                <textarea rows="4" cols="70" id="long-ip"></textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="long-btn">Create</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="long-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Date -->
+<div class="modal fade" id="create-date" tabindex="-1" role="dialog" aria-labelledby="Create Note" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="date-title"></h4>
+            </div>
+            <div class="modal-body">
+                <p id="date-body"></p>
+                <input type="number" min="0" max="2014" class="form-control" id="date-ip">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="date-btn">Create</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="date-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Choice -->
+<div class="modal fade" id="create-choice" tabindex="-1" role="dialog" aria-labelledby="Create Note" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="choice-title"></h4>
+            </div>
+            <div class="modal-body">
+                <p id="choice-body"></p>
+                <select id="choice-ip">
+                    <option value="very-poor">Very poor</option>
+                    <option value="poor">Poor</option>
+                    <option value="fair" selected="selected">Fair</option>
+                    <option value="good">Good</option>
+                    <option value="excellent">Excellent</option>
+                </select>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="choice-btn">Create</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="choice-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Instance -->
+<div class="modal fade" id="create-instance" tabindex="-1" role="dialog" aria-labelledby="Create Note" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="instance-title"></h4>
+            </div>
+            <div class="modal-body">
+                <p id="instance-list-body"></p>
+                <select id="instance-list">
+                    <option value="null-select" selected="selected">Select one</option>
+                    <!-- Ajax call fills list -->
+                </select>
+                <p></p><p></p>
+                <p id="instance-choice-body"></p>
+                <input type="text" class="form-control cite-mods" id="instance-choice" placeholder="Enter here">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="instance-btn">Create</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="instance-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Citation -->
+<div class="modal fade" id="create-cite" tabindex="-1" role="dialog" aria-labelledby="Create Note" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Add Citation</h4>
+            </div>
+            <div class="modal-body">
+                <p>Cite an article from our database: </p>
+                <select id="cite-doc-list">
+                    <option value="null-select" selected="selected">Select one</option>
+                    <!-- Ajax call fills list -->
+                </select>
+                <p></p><p></p>
+                <p>Or cite an external article: </p>
+                <input type="text" class="form-control cite-mods" id="cite-title" placeholder="Article title">
+                <p></p>
+                <input type="text" class="form-control cite-mods" id="cite-link" placeholder="Article link">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal" id="cite-btn">Create</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="cite-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DBPedia -->
+<div class="modal fade" id="create-pedia" tabindex="-1" role="dialog" aria-labelledby="Create Note" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Add Article from DBPedia</h4>
+            </div>
+            <div class="modal-body">
+                <p>Search for an article on DBPedia:</p>
+                <div class="input-group">
+                    <input type="text" class="form-control cite-mods" id="pedia-search">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button" id="pedia-search-btn" style="height: 25px;">Search</button>
+                    </span>
+                </div>
+                <p></p><p></p>
+                <p>Then select your article from the results below:</p>
+                <select id="pedia-results">
+                    <option value="" selected="selected">Select one</option>
+                    <!-- Ajax call fills list -->
+                </select>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal" id="pedia-btn">Create</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="pedia-cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<!-- Placed at the end of the document so the pages load faster
+"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js-->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"> </script>
+<script src="NewIndex.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+hasAuthor
+hasPublisher
+denotesPerson
+denotesPlace
+------------
+ajax query to fill select list (id: instance-list)
+or user creates new (id: instance-choice)
+(bodyLable + bodyResource)
+**create bodyResource URI if user creates
+
+denotesDisease
+hasSubject
+----------
+ajax query to get results
+
+
+hasDbpedia/relatesTo
+--------------------
+user enters search term (id: pedia-search)
+ajax query to get results (id: pedia-results)
+
+hasCitation/cites
+-----------------
+select article from ao
+or user cites externally (id: cite-title, cite-link)
+

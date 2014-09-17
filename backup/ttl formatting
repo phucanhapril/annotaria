@@ -1,0 +1,24 @@
+
+
+INSERT DATA {[] a oa:Annotation ; <-- Annotation type?
+???	rdfs:label "LABELXXX" ;
+	oa:annotatedAt "TIMEXXX" ;
+	oa:annotatedBy ?????????? ;
+->	oa:hasTarget ao:SOURCEXXX ;
+OR  oa:hasTarget [
+		a oa:SpecificResource ;
+		oa:hasSource ao:SOURCEXXX ;
+		oa:hasSelector [
+			a oa:FragmentSelector ;
+			rdf:value "DIVXXX" ; <--- id, node, pos??????
+			oa:start "STARTXXX"^^xsd:nonNegativeInteger ;
+			oa:end "ENDXXX"^^xsd:nonNegativeInteger ; ] ] ;
+->	oa:hasBody <RESOURCEXXX> ;
+OR 	oa:hasBody [
+		a cnt:ContentAsText ;
+		cnt:chars "VALUEXXX"^^xsd:string ] ;
+OR	oa:hasBody [
+		a rdf:Statement ;
+		rdf:subject ao:SOURCEXXXX ;
+		rdf:predicate MATCHCASE!! ;
+		rdf:object "VALUEXXX"^^xsd:gYear or w/e matchcase ok ] ;}

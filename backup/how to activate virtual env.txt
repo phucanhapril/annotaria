@@ -1,0 +1,6 @@
+os/linux
+$ . venv/bin/activate
+
+
+windows
+$ venv\scripts\activate

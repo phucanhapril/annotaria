@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<title>april's test</title>
+</head>
+
+<body>
+
+<script type=text/javascript
+  src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type=text/javascript>
+  var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+</script>
+
+<h1> BUDDY </h1>
+
+<script type=text/javascript>
+
+$(function() {
+    var say_hello = function(e) {
+        $.getJSON($SCRIPT_ROOT + '/_helloworld', {},
+       	function(data) {
+       		$('#buddy-reply').text(data.reply);
+        });
+        return false;
+    };
+
+    $('#hello-world-btn').bind('click', say_hello);
+
+    var say_my_name = function(e) {
+    	$.getJSON($SCRIPT_ROOT + '/_helloperson', {
+    		myname: $('input[id="myname"]').val()
+    	}, function(data) {
+    		$("#buddy-reply").text("Hello " + data.yourname);
+    	});
+    	return false;
+    };
+
+    $("#hello-person-btn").bind('click', say_my_name);
+
+    var json_manip = function(e) {
+    	$.getJSON($SCRIPT_ROOT + '/_jsonmanip', {
+    		thekey: $('input[id="jsonkey"]').val()
+    	}, function(data) {
+    		$("#json-play").text($('input[id="jsonkey"]').val() + "=" + data.translation);
+    	});
+    	return false;
+    };
+
+    $('#play').bind('click', json_manip);
+
+
+});
+</script>
+
+<button id="hello-world-btn"> SAY HELLO </button>
+<p></p>
+<h2 id="buddy-reply"></h2>
+<p></p>
+<input type="text" max-length="30" id="myname">
+<button id="hello-person-btn"> SAY HELLO 2 ME </button>
+<p></p>
+<p>Key:</p>
+<input type="text" max-length="30" id="jsonkey">
+<p>Value:</p>
+<input type="text" max-length="30">
+<button id="play"> JSON </button>
+<h2 id="json-play"></h2>
+
+
+</body>
+</html>

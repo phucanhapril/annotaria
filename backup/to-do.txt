@@ -1,0 +1,18 @@
+Clearing annotations when switching articles
+
+Why aren't all annotations showing up after saving?
+
+Reset value for publication year
+
+Bug when reentering annotator mode 
+(name and email input not recognized)
+
+Labels for dbpedia results ambiguous
+
+Set all parameters for query notes
+
+BODY LABELS
+
+clear query results, filter results
+
+

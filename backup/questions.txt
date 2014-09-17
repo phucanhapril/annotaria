@@ -1,0 +1,29 @@
+QUESTIONS
+
+1. clarify process
+   web app -> create annotation -> annotation to json object -> send json to server -> server changes to turtle
+   -> server sends to fuseki (???) using insert query
+
+2. create annotation: widgets and IRIs
+   instance widgets---------------------------------------------------
+   choice: query to foaf/dbpedia/icd/biblioteca firenze -> show results -> user select -> create note
+   instance: user input -> create json -> send json to server -> server changes to turtle (????) how to create IRI from user-created instance -> send to fuseki
+
+   create gerneric URI for al classes (people, authors, etc)
+   REST: GET uri
+   to create.. 2 ways (client decides to create identifier, i.e. fiscal code PUT http://..../person/12345
+                       otherwise server creates identifier if id is not inherently unique
+                       POST ..../person/ newID
+                       serverside app sees post to collection, decides to create new instance return record with new id
+
+   dbpedia widgets: --------------------------------------------------
+   user enters a search term -> ajax query to dbpedia -> show results (should we filter?) -> user select -> create note
+
+
+   who.int/classifications/icd/en
+
+3. server json-turtle handling: python/php
+   we have decided to use python... confirm that this is ok and that we can simply write a script
+
+4. server-fuseki query
+   RIKI

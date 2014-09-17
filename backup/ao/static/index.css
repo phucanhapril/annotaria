@@ -1,0 +1,149 @@
+/** Progetto AnnOtaria
+Tecnologie Web 2014
+Riccardo Candido e April Tran **/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* Navbar */
+#icon {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 80px;
+    margin-left: 0;
+    z-index: 5;
+}
+#my-navbar {
+    padding-left: 80px;
+}
+#ann-css {
+    padding-top: 15px;
+}
+.btn-note {
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+/* Tabs: Filter + Annotations */
+.border {
+    border: solid rgb(220,220,220) 1px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.border-notop {
+    border-top: none;
+}
+.breath {
+    margin-top: 15px;
+}
+.itemFilter{
+    cursor:pointer;
+}
+.scroll {
+    height:500px; /* Review this css attribute */
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#body-date{
+    height:500px; /* Review this css attribute */
+}
+
+/* App */
+#app {
+    padding-top: 70px;
+}
+#doc-display {
+    padding-left: 10px;
+}
+
+/* Modals */
+#long-ip {
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+.cite-mods {
+    height: 25px;
+}
+
+/* Annotations */
+.edit-hasAuthor, .edit-hasPublisher, .edit-hasPublicationYear, .edit-hasTitle,
+.edit-hasAbstract, .edit-hasShortTitle, .edit-hasArticleComment {
+    background-color: #66cccc;
+    color: white;
+}
+
+.edit-denotesPerson{
+    background-color: #7b88ff;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.edit-denotesPlace{
+    background-color: #3c3ec8;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.edit-denotesDisease{
+    background-color: #000b73;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin-left: 10px;
+
+}
+
+.edit-hasSubject, .edit-relatesTo{
+    background-color: #25b051;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin-left: 10px;
+
+}
+.edit-hasDbpedia{
+    background-color: #196a1b;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+
+.edit-hasClarityScore{
+    background-color: #feb55e;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.edit-hasOriginalityScore{
+    background-color: #fe8f43;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.edit-hasFormattingScore {
+    background-color: #c95929;
+    color: whitesmoke;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.edit-cites {
+    background-color: #fea0af;
+    color: white;
+}
+
+.edit-hasComment {
+    background-color: #eb4952;
+    color: white;
+}
+
+.collapse-margin{
+    margin:10px;
+}
+
+.no-border{
+    border: none;
+}
+

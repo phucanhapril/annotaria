@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>AnnOtaria</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">;
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    <script type=text/javascript>
+        var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+
+</head>
+
+<body>
+    {% block app %}
+    {% endblock %}
+
+<!-- Bootstrap core JavaScript & jQuery -->
+<!-- Placed at the end of the document so the pages load faster
+"https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js-->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"> </script>
+
+<script src="index.js"></script>
+</body>
+</html>

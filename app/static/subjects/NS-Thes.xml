@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+xmlns:dc="http://purl.org/dc/elements/1.1/" 
+xmlns:dcterms="http://purl.org/dc/terms/" 
+xmlns:nsogi="http://prefix.cc/nsogi"> 
+<rdf:Description rdf:about="http://thes.bncf.firenze.sbn.it">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare</dc:title>
+<dc:identifier>http://thes.bncf.firenze.sbn.it</dc:identifier>
+<dc:creator xml:lang="it">Biblioteca nazionale centrale di Firenze</dc:creator>
+<dc:format>text/xml</dc:format>
+<dc:language>it-IT</dc:language>
+<dcterms:conformsTo>SKOS (http://www.w3.org/TR/skos-reference/)</dcterms:conformsTo>
+<dcterms:conformsTo>RDF (http://www.w3.org/TR/rdf-syntax-grammar/)</dcterms:conformsTo>
+<dcterms:created>2010-11-30</dcterms:created>
+<dcterms:issued>2014-03-31</dcterms:issued>
+<dc:description  xml:lang="it">Il Nuovo soggettario è lo strumento impiegabile nell'indicizzazione per soggetto di risorse di varia natura, realizzato a cura della Biblioteca nazionale centrale di Firenze. </dc:description>
+<dcterms:rightsHolder>Biblioteca nazionale centrale di Firenze</dcterms:rightsHolder>
+<dcterms:license> http://creativecommons.org/licenses/by/2.5/it/deed.it</dcterms:license>
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/810" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/763" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/4214" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/553" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/690" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/742" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/685" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/820" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/1221" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/596" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/684" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/1890" />
+<skos:hasTopConcept rdf:resource="http://purl.org/bncf/tid/585" />
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF1">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Attività</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF2">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Discipline</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF3">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Materia</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF4">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Oggetti</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF5">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Organismi</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF6">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Organizzazioni</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF7">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Persone</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF8">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Processi</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF9">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Spazio</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF12">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Strumenti</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF13">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Strutture</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF14">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Tempo</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/ThesCF15">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme" />
+<dc:title xml:lang="it">Nuovo soggettario Thesaurus multisciplinare. Forme</dc:title>
+<dcterms:isPartOf>http://purl.org/bncf/tid/Thes</dcterms:isPartOf>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,137 @@
+from prefixes import set_prefix
+# import simplejson as json
+import json
+
+# create query string to send to Fuseki
+def create_sparql_query(doc_uri):
+	query = set_prefix()
+	# query looks in this order:
+	# 1. entire doc note info with [] as subject
+	# 2. fragment note info with [] as subject
+	# 3. fragment note target info
+	# 4. publication year body
+	# 5. cites body
+	# 6. value for entire body notes
+	# 7. value for fragment notes
+	# 8/9. annotator email
+	query += """
+	select ?s ?p ?o
+	where {
+		{	?s oa:hasTarget ao:""" + doc_uri + """ .
+			?s ?p ?o .
+		}
+		union
+		{ 	?s oa:hasTarget ?target .
+			?target oa:hasSource ao:""" + doc_uri + """ .
+			?s ?p ?o .
+		}
+		union
+		{	?s oa:hasTarget ?target .
+			?target oa:hasSource ao:""" + doc_uri + """ .
+			?target oa:hasSelector ?selector .
+			?selector ?p ?o .
+		}
+		union
+		{	?s oa:hasTarget ao:""" + doc_uri + """ .
+			?s oa:hasBody ?body .
+			?body rdf:predicate ?p .
+			?body rdf:object ?o .
+		}
+		union
+		{	?s oa:hasTarget ?target .
+			?target oa:hasSource ao:""" + doc_uri + """ .
+			?s oa:hasBody ?body .
+			?body rdf:predicate ?p .
+			?body rdf:object ?o .
+		}
+		union
+		{	?s oa:hasTarget ao:""" + doc_uri + """ .
+	  		?s oa:hasBody ?body .
+          		?body a cnt:ContentAsText .
+	  		?body ?p ?o .
+		}
+		union 
+		{	?s oa:hasTarget ?target .
+          		?target oa:hasSource ao:""" + doc_uri + """ .
+	  		?s oa:hasBody ?body .
+          		?body a cnt:ContentAsText .
+          		?body ?p ?o .
+		}
+		union
+		{	?s oa:hasTarget ao:""" + doc_uri + """ .
+			?s oa:annotatedBy ?person .
+			?person ?p ?o .
+		}
+		union
+		{ 	?s oa:hasTarget ?target .
+			?target oa:hasSource ao:""" + doc_uri + """ .
+			?s oa:annotatedBy ?person .
+			?person ?p ?o .
+		}
+	} order by ?s"""
+	return query;
+
+# convert sparql note data to json object
+def note_convert(sparql_reply):
+	# open the file
+	n = json.dumps(sparql_reply)  
+	output_json = json.loads(n) 
+		
+	# set comody the variable
+	allMyNote={} # the data that return to the note_convert
+	myNote = {'time': '','noteType': '','bodyLabel': '','name': '','email': ''} # blank node
+	currentNode="" # node to check when the node change
+	first = 0 # the index
+
+	# if file empty
+	if len(output_json["results"]["bindings"]) == 0:
+		return allMyNote
+
+	# else set the prefix
+	# change ao:/aop: to our annotaria url
+	ao="http://vitali.web.cs.unibo.it/AnnOtaria/"
+	aop="http://vitali.web.cs.unibo.it/AnnOtaria/person/"
+	dcterms="http://purl.org/dc/terms/"
+	fabio="http://purl.org/spar/fabio/"
+	foaf="http://xmlns.com/foaf/0.1/"
+	frbr="http://purl.org/vocab/frbr/core#"
+	oa="http://www.w3.org/ns/oa#"
+	rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	schema="http://schema.org/"
+	sem="http://www.ontologydesignpatterns.org/cp/owl/semiotics.owl#"
+	xml="http://www.w3.org/XML/1998/namespace"
+	xsd="http://www.w3.org/2001/XMLSchema#"
+	cito="http://www.purl.org/spar/cito/"
+	cnt="http://www.w3.org/2011/content#"
+	
+	# cycling all triple and create the json
+	for i in output_json["results"]["bindings"]:		
+		if i["s"]["value"] != currentNode:
+			currentNode = i["s"]["value"]
+			if first>0:
+				print "sono passato da qui"+str(currentNode)
+				allMyNote.update({str(first):myNote})
+				myNote = {'time': '','noteType': '','bodyLabel': '','name': '','email': ''}
+		# the all for all node
+		if i["p"]["value"] == oa+"annotatedAt":
+			myNote["time"] = i["o"]["value"]	
+		elif i["p"]["value"] == rdfs+"label":
+			myNote["noteType"] = i["o"]["value"]
+		elif i["p"]["value"] == cnt+"chars":
+			myNote["bodyLabel"] = i["o"]["value"]
+		elif i["p"]["value"] == foaf+"name":
+			myNote["name"] = i["o"]["value"]
+		elif i["p"]["value"] == schema+"email":
+			myNote["email"] = i["o"]["value"]
+		elif i["p"]["value"] == oa+"end":
+			myNote.update({"end":i["o"]["value"]})
+		elif i["p"]["value"] == oa+"start":
+			myNote.update({"start":i["o"]["value"]})
+		elif i["p"]["value"] == rdf+"value":
+			myNote.update({"node":i["o"]["value"]})
+		first = first + 1
+	# for the last
+	allMyNote.update({str(first):myNote})
+	print allMyNote
+	return allMyNote

@@ -1,0 +1,2553 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:nsogi="http://prefix.cc/nsogi">
+<rdf:Description rdf:about="http://purl.org/bncf/tid/1889">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Adolescenza</skos:prefLabel>
+<dc:date>2005-01-12</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1888"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/1891"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29348"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85000952"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Adolescenza"/>
+
+<skos:scopeNote>Periodo della vita umana di passaggio dall' infanzia all'età adulta (dai 12 ai 20 anni)</skos:scopeNote>
+<skos:historyNote>Non preferito in Soggettario, ma successivamente preferito in BNI 1986-1998</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; BNI 1986-1998; VLI; DeM; PT; DDC21; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">305.235</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/31156">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Algonchiano</skos:prefLabel>
+<dc:date>2009-03-30</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/31157"/>
+<skos:altLabel>Algonkiano</skos:altLabel>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Proterozoico"/>
+
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; VT; DeM; ESG; ThIST: Algonkiano; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/7284">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Anni</skos:prefLabel>
+<dc:date>2005-04-27</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/9376"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/7282"/>
+
+<nsogi:obsoleteTerm>Anno</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/46579"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/592"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/595"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/48616"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30250"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85149056"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Anno"/>
+
+<skos:historyNote>Precedentemente al singolare: Anno (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Dev; Treccani.it; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/46579">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Anniversari</skos:prefLabel>
+<dc:date>2011-10-21</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/48616"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/7284"/>
+
+<skos:scopeNote>Ricorrenze annuali di avvenimenti ritenuti di particolare importanza pubblica o privata</skos:scopeNote>
+<skos:editorialNote>FONTE: BNI LiBeR; Treccani.it; DeM; Dev; Zin; Sapere.it</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: Idest</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/35296">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Anno liturgico</skos:prefLabel>
+<dc:date>2009-12-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:altLabel>Anno ecclesiatico</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/14026"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Anno_liturgico"/>
+
+<skos:historyNote>Non preferito in Soggettario, con rinvio a Calendario ecclesiastico</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; Wikipedia(IT); DDC22</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/2214">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Anno sabbatico</skos:prefLabel>
+<dc:date>2005-01-24</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<nsogi:obsoleteTerm>Anno sabbatico &lt;Giudaismo&gt;</nsogi:obsoleteTerm>
+
+<skos:altLabel>Anno sabatico</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/594"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/2218"/>
+
+<skos:scopeNote>Presso gli Ebrei, ogni settimo anno in cui la Bibbia prescriveva la cessazione dei lavori nei campi, la liberazione degli schiavi ebrei, il condono dei crediti. L'osservanza dell'anno sabbatico si verificò solo dopo l'esilio babilonese (V sec. a.C.) e fu di fatto sospesa nella parte relativa alla remissione dei crediti all'inizio dell'era cristiana (PT)</skos:scopeNote>
+<skos:historyNote>Precedentemente: Anno sabbatico (Giudaismo) (BNI 1999-2005)</skos:historyNote>
+<skos:editorialNote>FONTE: BNI 1999-2005: Anno sabbatico (Giudaismo); PT; DeM; DDC21</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">296.4391</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/16902">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Antichità</skos:prefLabel>
+<dc:date>2007-07-27</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/35509"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/1064"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/2082"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/10149"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/50058"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/17179"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/17040"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Storia_antica"/>
+
+<skos:scopeNote>L'età antica, il periodo cronologico che va dalle origini al 5. secolo d.C.</skos:scopeNote>
+<skos:editorialNote>FONTE: BNI 1956-1985; VLI; DeM; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">930</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/31782">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Archeano</skos:prefLabel>
+<dc:date>2009-05-05</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/31159"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/34714"/>
+
+<skos:altLabel>Archeozoico</skos:altLabel>
+<skos:altLabel>Precambriano inferiore</skos:altLabel>
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85054088"/>
+
+<skos:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12114352v"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Archeano"/>
+
+<skos:historyNote>Mai usato in BNI fino al 2008</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; PT; ESG; Maximus; RAMEAU: Archéen; ThIST; DDC22; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/18651">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Avvento</skos:prefLabel>
+<dc:date>2007-10-23</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/6510"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30525"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Avvento"/>
+
+<skos:scopeNote>Nella liturgia cristiana, periodo di quattro settimane che precede il Natale</skos:scopeNote>
+<skos:editorialNote>FONTE: BNI 1956-1985; VLI; DeM; PT; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">263.912</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/31526">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Cambriano</skos:prefLabel>
+<dc:date>2009-04-10</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/21178"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/38816"/>
+
+<skos:altLabel>Cambrico</skos:altLabel>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Cambriano"/>
+
+<skos:editorialNote>FONTE: Soggettario; VT; DeM; Zin; ESG; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/21177">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Carbonifero</skos:prefLabel>
+<dc:date>2008-03-20</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/21178"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/21174"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/34991"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Carbonifero"/>
+
+<skos:definition>Terzo e penultimo periodo dell'era paleozoica (VT)</skos:definition>
+<skos:editorialNote>FONTE: Soggettario; VT; PT; DSTR; EST; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">551.75</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/21174">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Carbonifero superiore</skos:prefLabel>
+<dc:date>2008-03-20</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/21177"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/35313"/>
+
+<skos:altLabel>Neocarbonico</skos:altLabel>
+<skos:altLabel>Neocarbonifero</skos:altLabel>
+<skos:altLabel>Pennsylvaniano</skos:altLabel>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Pennsylvaniano"/>
+
+<skos:definition>Suddivisione del Carbonifero (da 310 a 280 milioni di anni fa) (EST)</skos:definition>
+<skos:editorialNote>FONTE: BNI 1956-1985: Argilloscisti neocarboniferi; PT; DSTR; EST; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">551.752</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32704">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Coblenziano</skos:prefLabel>
+<dc:date>2009-07-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32591"/>
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; PT; LUI</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/48616">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Compleanni</skos:prefLabel>
+<dc:date>2012-10-22</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/46579"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/7284"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/48444"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/20068"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/14970"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85014392"/>
+
+<skos:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb123875580"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Compleanno"/>
+
+<skos:definition>Giorni anniversario della nascita (Treccani.it)</skos:definition>
+<skos:editorialNote>FONTE: BNI 2006-2013; Treccani.it; Dev; VLI; Zin; RAMEAU: Anniversaires de naissance; DDC22; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/51659">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Controstallie</skos:prefLabel>
+<dc:date>2013-08-20</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/43737"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/40546"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/17114"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/16426"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/51660"/>
+
+<skos:scopeNote>Periodi di tempo concessi dal comandante di una nave mercantile al noleggiatore per ultimare le operazioni di sbarco o imbarco non completate entro i termini della stallia</skos:scopeNote>
+<skos:editorialNote>FONTE: Soggettario: Stallie e controstallie; DeM; PT; Treccani.it (voce: Stallia e controstallia); DTGR (voce: Trasporto marittimo); CdN: artt. 446-449</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: Biblioteca Bocconi</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/19156">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Crepuscolo</skos:prefLabel>
+<dc:date>2007-11-05</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/20068"/>
+<nsogi:obsoleteTerm>Crepuscoli</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/1843"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/20147"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/2536"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/16147"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Crepuscolo"/>
+
+<skos:scopeNote>Periodo di luminosità dovuto alla luce solare diffusa dall'atmosfera prima del levar del sole (crepuscolo mattutino) e dopo il tramonto (crepuscolo serale) (ESG)</skos:scopeNote>
+<skos:historyNote>Precedentemente al plurale: Crepuscoli (BNI 1956-1985)</skos:historyNote>
+<skos:editorialNote>FONTE: BNI 1956-1985; VT; DeM; ESG; DDC21; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">525.7</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/30512">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Cretaceo</skos:prefLabel>
+<dc:date>2009-03-06</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/31505"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32286"/>
+
+<skos:altLabel>Cretacico</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/30619"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/34055"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30510"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/32510"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/33112"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Cretacico"/>
+
+<skos:editorialNote>FONTE: Soggettario; DeM; PT; Zin; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32286">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Cretaceo inferiore</skos:prefLabel>
+<dc:date>2009-06-17</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/30512"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37262"/>
+
+<skos:altLabel>Cretacico inferiore</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/33831"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Cretacico_inferiore"/>
+
+<skos:historyNote>Mai usato in BNI fino al 2008</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; PT; McGraw-Hill; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/30093">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Cretaceo superiore</skos:prefLabel>
+<dc:date>2009-02-18</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/29678"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/32505"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/33673"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Cretacico_superiore"/>
+
+<skos:editorialNote>FONTE: PT; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/7572">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Date</skos:prefLabel>
+<dc:date>2005-05-02</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/46313"/>
+
+<nsogi:obsoleteTerm>Data</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/7571"/>
+
+<skos:scopeNote>Indicazione del tempo, specialmente del giorno, del mese e dell’anno in cui ci si trova o in cui si è svolto o si verificherà un fatto</skos:scopeNote>
+<skos:historyNote>Precedentemente al singolare: Data (BNI 1956-1985)</skos:historyNote>
+<skos:editorialNote>FONTE: BNI 1956-1985; VLI; DeM; PT; DDC21</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">902.02</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/35006">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Degenza ospedaliera</skos:prefLabel>
+<dc:date>2009-11-18</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/5408"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/34276"/>
+
+<skos:editorialNote>FONTE: Soggettario; DeM; Zin</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/23642">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Degenza postoperatoria</skos:prefLabel>
+<dc:date>2008-06-03</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/23525"/>
+
+<skos:editorialNote>FONTE: Soggettario</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32589">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Devoniano</skos:prefLabel>
+<dc:date>2009-07-14</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/21178"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32591"/>
+
+<skos:altLabel>Devonico</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/33619"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Devoniano"/>
+
+<skos:historyNote>Mai usato in BNI</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; VT; ESG; ThIST; DDC22; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32591">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Devoniano inferiore</skos:prefLabel>
+<dc:date>2009-07-14</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32589"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32704"/>
+
+<skos:altLabel>Devonico inferiore</skos:altLabel>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Devoniano_inferiore"/>
+
+<skos:editorialNote>FONTE: Soggettario; PT; ESG; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/20067">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Domenica</skos:prefLabel>
+<dc:date>2007-12-17</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/20068"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/14024"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/35193"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/13790"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/12771"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30634"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Domenica"/>
+
+<skos:definition>Settimo giorno della settimana (ma primo nella liturgia cattolica) che segue il sabato; è, presso tutti i popoli di religione cristiana, giorno festivo consacrato al Signore (VLI)</skos:definition>
+<skos:editorialNote>FONTE: BNI 1956-1985; VLI; DeM; Dev; EnCat; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/30603">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Durata</skos:prefLabel>
+<dc:date>2009-03-11</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:scopeNote>Intervallo di tempo in cui si svolge, dal suo principio alla sua fine, un determinato fatto o fenomeno</skos:scopeNote>
+<skos:editorialNote>FONTE: BNI 1956-1985; VLI; DeM; PT</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32664">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Elveziano</skos:prefLabel>
+<dc:date>2009-07-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32665"/>
+<skos:editorialNote>FONTE: Soggettario; PT; ThIST</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32666">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Eocene</skos:prefLabel>
+<dc:date>2009-07-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32659"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32667"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30951"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/37362"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Eocene"/>
+
+<skos:editorialNote>FONTE: Soggettario; DeM; PT; DSTR; ICS; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32667">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Eocene medio</skos:prefLabel>
+<dc:date>2009-07-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32666"/>
+<skos:editorialNote>FONTE: Soggettario; PT; DSTR; ThIST</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32497">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Epatta</skos:prefLabel>
+<dc:date>2009-07-08</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1888"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/7996"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/595"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/9292"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30250"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Epatta"/>
+
+<skos:historyNote>Mai usato in BNI fino al 2008</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; Zin; ESF; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32656">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Epoca glaciale</skos:prefLabel>
+<dc:date>2009-07-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32658"/>
+<skos:altLabel>Era glaciale</skos:altLabel>
+<skos:altLabel>Periodo glaciale</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/32661"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85055046"/>
+
+<skos:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11944238w"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Epoca_glaciale"/>
+
+<skos:scopeNote>Intervallo di tempo della storia della Terra (Pleistocene) in cui avvenne una forte espansione dei ghiacciai </skos:scopeNote>
+<skos:editorialNote>FONTE: Soggettario; PT (voce: Glaciazione); DSTR; RAMEAU: Glaciations; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/33197">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Equinozi</skos:prefLabel>
+<dc:date>2009-08-07</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/7282"/>
+<nsogi:obsoleteTerm>Equinozio</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/35178"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/2536"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/33679"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Equinozio"/>
+
+<skos:historyNote>Precedentemente al singolare: Equinozio (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; ESF; ESG; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32659">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Era cenozoica</skos:prefLabel>
+<dc:date>2009-07-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/23698"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32666"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32665"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37513"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37362"/>
+
+<skos:altLabel>Cenozoico</skos:altLabel>
+<skos:altLabel>Era terziaria</skos:altLabel>
+<skos:altLabel>Terziario</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/48976"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Cenozoico"/>
+
+<skos:editorialNote>FONTE: Soggettario; VLI; PT: Cenozoico; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/29458">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Era cristiana</skos:prefLabel>
+<dc:date>2009-01-23</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:altLabel>Era volgare</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/1499"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/7571"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Anno_Domini"/>
+
+<skos:historyNote>Mai usato in BNI</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/31505">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Era mesozoica</skos:prefLabel>
+<dc:date>2009-04-10</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/23698"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/30512"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/30271"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32513"/>
+
+<skos:altLabel>Era secondaria</skos:altLabel>
+<skos:altLabel>Mesozoico</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/31502"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Mesozoico"/>
+
+<skos:editorialNote>FONTE: Soggettario; PT; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/21178">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Era paleozoica</skos:prefLabel>
+<dc:date>2008-03-20</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/23698"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/31526"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/21177"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32589"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37589"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37514"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/38211"/>
+
+<skos:altLabel>Era primaria</skos:altLabel>
+<skos:altLabel>Paleozoico</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/34917"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Paleozoico"/>
+
+<skos:definition>Era geologica durata da 570 a 230 milioni di anni fa; viene suddivisa in più periodi (cambriano, ordoviciano, siluriano, devoniano, carbonifero, permiano) e in varie epoche, piani e sottopiani (ESG)</skos:definition>
+<skos:editorialNote>FONTE: Soggettario; VT; PT; EST; DSTR; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">551.72</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/23698">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Ere geologiche</skos:prefLabel>
+<dc:date>2008-06-04</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/41521"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32659"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/31505"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/21178"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/33997"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/31159"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/33206"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/33613"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/45940"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/37701"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Era_geologica"/>
+
+<skos:editorialNote>FONTE: Soggettario; DeM; ESG; DDC21; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">551.7</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/47134">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Esercizio finanziario</skos:prefLabel>
+<dc:date>2011-11-14</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:altLabel>Anno finanziario</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/12282"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/36982"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/14736"/>
+
+<skos:editorialNote>FONTE: Soggettario; DEBF; EFG</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: BNI; Biblioteca LIUC</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/7177">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Estate</skos:prefLabel>
+<dc:date>2005-04-26</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/7282"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/35032"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/40145"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/33680"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Estate"/>
+
+<skos:historyNote>Precedentemente anche all'interno del termine composto: Estate nella letteratura (BNI 1986-1998)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; VLI; Dev; DDC21; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">508.2</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/1888">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Età</skos:prefLabel>
+<dc:date>2005-01-12</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32497"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/1889"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/28737"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/1928"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/1846"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30786"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/31186"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/776"/>
+
+<skos:scopeNote>Periodi della vita dell'uomo e, per analogia, degli animali, delle piante, delle cose</skos:scopeNote>
+<skos:editorialNote>FONTE: Soggettario; VLI; DeM; PT</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/13938">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+<rdfs:label xml:lang="it">Età dell'uomo</rdfs:label>
+<skos:member rdf:resource="http://purl.org/bncf/tid/1889"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/28737"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/1928"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/1846"/>
+
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/28737">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Età evolutiva</skos:prefLabel>
+<dc:date>2008-12-12</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1888"/>
+<skos:definition>Il periodo della vita umana dalla nascita fino al raggiungimento della maturità fisica e psichica (Dev)</skos:definition>
+<skos:editorialNote>FONTE: BNI 1956-1985; VT; DeM; Dev</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/34780">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Fasi lunari</skos:prefLabel>
+<dc:date>2009-11-04</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/34779"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Fasi_lunari"/>
+
+<skos:editorialNote>FONTE: Treccani.it; DeM; TRT; DDC22; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/29581">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Fasti</skos:prefLabel>
+<dc:date>2009-01-30</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<nsogi:obsoleteTerm>Fasti romani</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29582"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/20068"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/16117"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/4934"/>
+
+<skos:scopeNote>Nell’antico calendario romano, i giorni in cui era lecito trattare gli affari pubblici, discutere le cause e simili, senza che intervenissero divieti o vincoli religiosi</skos:scopeNote>
+<skos:editorialNote>FONTE: Soggettario; DeM; Dev; ESU; SPBM</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/36798">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Ferie</skos:prefLabel>
+<dc:date>2010-05-27</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/1472"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/36057"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Ferie"/>
+
+<skos:scopeNote>Periodo di riposo, per lo più estivo, riconosciuto a chi esplica un lavoro o un'attività</skos:scopeNote>
+<skos:historyNote>In Soggettario come termine non preferito: Congedo</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; Zin; Dev; Wikipedia(IT)</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: BNI; Biblioteca LIUC</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/50319">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Ferma militare</skos:prefLabel>
+<dc:date>2013-05-02</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/49314"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/49352"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/2530"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/16096"/>
+
+<skos:definition>Periodo di tempo durante il quale il militare è obbligato per legge (se di leva), o si obbliga spontaneamente (se volontario) a prestare servizio (Treccani.it)</skos:definition>
+<skos:historyNote>Mai usato in BNI fino al 2012</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; Zin; DizMil</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/14024">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Festività</skos:prefLabel>
+<dc:date>2006-10-30</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/595"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/31405"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/20067"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/6790"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/8286"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/36057"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Festa"/>
+
+<skos:scopeNote>Giorni di festa solenne religiosa o civile (VLI)</skos:scopeNote>
+<skos:historyNote>Precedentemente: Feste (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario: Feste; VLI; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/20068">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Giorni</skos:prefLabel>
+<dc:date>2007-12-17</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/9376"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/19156"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/20067"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37591"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/16147"/>
+
+<nsogi:obsoleteTerm>Giorno</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/48616"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29581"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30250"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Giorno"/>
+
+<skos:scopeNote>Periodi di 24 ore fra una mezzanotte e la successiva</skos:scopeNote>
+<skos:historyNote>Precedentemente al singolare: Giorno (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; DeM; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">529.1</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/33840">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Giorno polare</skos:prefLabel>
+<dc:date>2009-09-28</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/2536"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/7302"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Sole_di_mezzanotte"/>
+
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/33862">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Giorno siderale</skos:prefLabel>
+<dc:date>2009-09-29</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:altLabel>Giorno sidereo</skos:altLabel>
+<skos:altLabel>Rotazione siderale</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/33863"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/18839"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/8582"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Giorno_siderale"/>
+
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; ESG; DDC22; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/33866">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Giorno solare</skos:prefLabel>
+<dc:date>2009-09-29</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:altLabel>Giorno solare vero</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/18839"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/2536"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Giorno"/>
+
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; PT; DDC22; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/1928">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Giovinezza</skos:prefLabel>
+<dc:date>2005-01-14</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1888"/>
+<nsogi:obsoleteTerm>Gioventù</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/909"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/17850"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85149310"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh99004940"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Giovinezza"/>
+
+<skos:scopeNote>L'età intermedia tra l'adolescenza e la maturità</skos:scopeNote>
+<skos:historyNote>Precedentemente: Gioventù (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario: Gioventù; VLI; DeM; PT; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">305.235</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/30764">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Giubilei</skos:prefLabel>
+<dc:date>2009-03-18</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:altLabel>Anni Santi</skos:altLabel>
+<skos:altLabel>Giubbilei</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/30322"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/10815"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Libro_dei_Giubilei"/>
+
+<skos:scopeNote>Nella Chiesa cattolica, anni dichiarati santi che cadono ogni venticinque anni, durante i quali il papa concede l’indulgenza plenaria a tutti i fedeli che si rechino in pellegrinaggio a Roma e compiano particolari pratiche religiose </skos:scopeNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; EnCat; NDC; SPBM; TRT; DDC21; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">263.97</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/30271">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Giurassico</skos:prefLabel>
+<dc:date>2009-02-26</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/31505"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/30094"/>
+
+<skos:altLabel>Giurese</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/30619"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/34055"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30510"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30267"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Giurassico"/>
+
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; ESG; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/30279">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Giurassico inferiore</skos:prefLabel>
+<dc:date>2009-02-26</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:altLabel>Giurese inferiore</skos:altLabel>
+<skos:altLabel>Lias</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/30273"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Giurassico_inferiore"/>
+
+<skos:editorialNote>FONTE: PT; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/30094">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Giurassico superiore</skos:prefLabel>
+<dc:date>2009-02-18</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/30271"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/34678"/>
+
+<skos:altLabel>Giurese superiore</skos:altLabel>
+<skos:altLabel>Malm</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/33831"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29669"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Giurassico_superiore"/>
+
+<skos:editorialNote>FONTE: PT; ESG; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/34714">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Huroniano</skos:prefLabel>
+<dc:date>2009-10-29</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/31782"/>
+<skos:altLabel>Uroniano</skos:altLabel>
+<skos:historyNote>Mai usato in BNI fino al 2008</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; Dev; ThIST</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/30252">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Indizione</skos:prefLabel>
+<dc:date>2009-02-26</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/7571"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/584"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Indizione"/>
+
+<skos:scopeNote>Ciclo di quindici anni, preso come riferimento per la periodizzazione di eventi nell'antica Roma (in cui segnava i periodi delle revisioni fiscali), o per la datazione di documenti medievali</skos:scopeNote>
+<skos:historyNote>Mai usato in BNI</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; DeM; Zin; SPBM; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/1846">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Infanzia</skos:prefLabel>
+<dc:date>2005-01-11</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1888"/>
+<skos:altLabel>Fanciullezza</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/18293"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/25307"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/1836"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29348"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/42915"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/43517"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30826"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/28747"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Infanzia"/>
+
+<skos:scopeNote>La prima età dell'uomo compresa, in senso stretto, fra la nascita e l'uso completo della parola ma di solito estesa fino a comprendere la fanciullezza (l'essere umano che appartiene alla fascia di età 0-11 anni )</skos:scopeNote>
+<skos:historyNote>Non preferito in Soggettario, con rinvio a Fanciulli; non preferito in Soggettario, ma successivamente preferito in BNI 1956-1985; in BNI non registr. come termine preferito anche il sinonimo: Fanciullezza; precedentemente anche all'interno del termine composto: Prodotti dietetici per l'infanzia (BNI 1986-1998)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; BNI 1956-1985; VLI; DeM; PT; DDC21; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">305.23</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/14408">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Inverno</skos:prefLabel>
+<dc:date>2007-04-21</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/7282"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/24865"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/33681"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/14407"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Inverno"/>
+
+<skos:editorialNote>FONTE: Treccani.it; DeM; Zin; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">508.2</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/34678">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Kimmeridgiano</skos:prefLabel>
+<dc:date>2009-10-28</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/30094"/>
+<nsogi:obsoleteTerm>Kimeridgiano</nsogi:obsoleteTerm>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Kimmeridgiano"/>
+
+<skos:historyNote>Precedentemente: Kimeridgiano (Soggettario); mai usato in BNI fino al 2008</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario: Kimeridgiano; Treccani.it; PT; DTS; ICS; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/1066">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Medioevo</skos:prefLabel>
+<dc:date>2004-12-13</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/1063"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/26769"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/17061"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/11083"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/10128"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29130"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29131"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29555"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/32791"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30254"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/21654"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29264"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30739"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29263"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/50058"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29318"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/28961"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/8244"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/27344"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/48270"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/25654"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/24303"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29623"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/27522"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/38749"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/9558"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29844"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85085001"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Medioevo"/>
+
+<skos:scopeNote>Il periodo intermedio tra la fine dell'età antica (convenzionalmente il 476, data della caduta dell'impero romano d'occidente) e l'inizio dell'età moderna. Per la disciplina che studia la storia complessiva di questo periodo usare Storia medievale</skos:scopeNote>
+<skos:historyNote>Precedentemente con il significato di  concetto di Medioevo (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; VLI; DeM; PT; DDC21; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">909.07</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/9376">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Mesi</skos:prefLabel>
+<dc:date>2005-05-31</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/7284"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/20068"/>
+
+<nsogi:obsoleteTerm>Mese</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30250"/>
+
+<skos:historyNote>Precedentemente sia al singolare che plurale: Mese (Soggettario); Mesi (BNI non registr.); precedentemente anche all'interno del termine composto: Mesi nei proverbi (BNI 1986-1998)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; VLI; DeM; PT</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">529.2</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/48530">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Messiniano</skos:prefLabel>
+<dc:date>2012-10-08</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32665"/>
+<skos:closeMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb12215409d"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Messiniano"/>
+
+<skos:editorialNote>FONTE: Treccani.it; DSTR; DTS; EncBonline: Messinian stage; ICS;  RAMEAU: Messinien; ThIST; Wikipedia(IT)</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: Biblioteche UNIMI</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32665">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Miocene</skos:prefLabel>
+<dc:date>2009-07-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32659"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32664"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/48530"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/34681"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/37362"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Miocene"/>
+
+<skos:editorialNote>FONTE: Soggettario; DeM; ICS; DDC22; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">551.787</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/35313">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Missouriano</skos:prefLabel>
+<dc:date>2009-12-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/21174"/>
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; ThIST</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37262">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Neocomiano</skos:prefLabel>
+<dc:date>2010-07-16</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32286"/>
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; PT; DTS; McGraw-Hill; ThIST</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37513">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Neogene</skos:prefLabel>
+<dc:date>2010-08-07</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32659"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37512"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Neogene"/>
+
+<skos:editorialNote>FONTE: Treccani.it; DSTR; DTS; MB; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/33997">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Neozoico</skos:prefLabel>
+<dc:date>2009-10-02</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/23698"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37376"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32658"/>
+
+<skos:altLabel>Era neozoica</skos:altLabel>
+<skos:altLabel>Era quaternaria</skos:altLabel>
+<skos:altLabel>Quaternario</skos:altLabel>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Quaternario"/>
+
+<skos:historyNote>Non preferito in Soggettario, con rinvio a: Era neozoica</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; ESG; TRT; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/46313">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Notte di San Silvestro</skos:prefLabel>
+<dc:date>2011-10-17</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/7572"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/16792"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/6790"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Notte_di_San_Silvestro"/>
+
+<skos:editorialNote>FONTE: BNI LiBeR; Treccani.it; DeM; Wikipedia(IT)</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: Idest</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/30314">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Noviziato</skos:prefLabel>
+<dc:date>2009-02-27</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/11861"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/12745"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/832"/>
+
+<skos:scopeNote>Periodo di tempo in cui il novizio deve dar prova della sua idoneità per entrare a far parte di un ordine religioso</skos:scopeNote>
+<skos:editorialNote>FONTE: Soggettario; DeM; Zin; PT; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">248.894</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37362">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Oligocene</skos:prefLabel>
+<dc:date>2010-07-21</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32659"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/38185"/>
+
+<skos:altLabel>Oligocenico</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/32666"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/32665"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Oligocene"/>
+
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; PT; ESG; ThIST; DDC22; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37376">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Olocene</skos:prefLabel>
+<dc:date>2010-07-21</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/33997"/>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Olocene"/>
+
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; PT; ESG; ThIST; DDC22; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/13164">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Orari</skos:prefLabel>
+<dc:date>2006-04-13</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/52129"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/3071"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/46963"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/15618"/>
+
+<skos:definition>Predisposizione dell'ordine in cui determinati avvenimenti o operazioni devono succedersi nel tempo con indicazione dell'ora relativa a ciascuno di essi (PT)</skos:definition>
+<skos:editorialNote>FONTE: Soggettario; PT; TRT</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32312">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Orari ferroviari</skos:prefLabel>
+<dc:date>2009-06-18</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/15618"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/16430"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/7505"/>
+
+<skos:editorialNote>FONTE: Soggettario; PT</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: BNI; Biblioteca LIUC</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/3071">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Orario di lavoro</skos:prefLabel>
+<dc:date>2005-02-16</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/5463"/>
+
+<skos:altLabel>Orari lavorativi</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/28617"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/28528"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/1472"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/15440"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/3070"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/13164"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/26231"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/36057"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Orario_di_lavoro"/>
+
+<skos:editorialNote>FONTE: Soggettario; VLI; DeM; PT; TRT; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">331.257</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37589">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Ordoviciano</skos:prefLabel>
+<dc:date>2010-08-12</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/21178"/>
+<skos:altLabel>Periodo ordoviciano</skos:altLabel>
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85054103"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Ordoviciano"/>
+
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; Dev; ESG; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37591">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Ore</skos:prefLabel>
+<dc:date>2010-08-12</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/20068"/>
+<nsogi:obsoleteTerm>Ora</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30250"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/40145"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Ora"/>
+
+<skos:historyNote>Precedentemente al singolare: Ora (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; Dev; ESG; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/13928">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+<rdfs:label xml:lang="it">Organizzazione e scansione del tempo</rdfs:label>
+<skos:member rdf:resource="http://purl.org/bncf/tid/7284"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/46579"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/7572"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/33840"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/33862"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/33866"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/30252"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/13164"/>
+
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/17179">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Origini</skos:prefLabel>
+<dc:date>2007-09-07</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/16902"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/34326"/>
+
+<skos:scopeNote>Momento o fase iniziale di un fenomeno storico, culturale, ecc. durevole nel tempo</skos:scopeNote>
+<skos:historyNote>Precedentemente sia al singolare che plurale: Origine (BNI 1956-1985); Origini (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; VLI; DeM</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/18927">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Ottava</skos:prefLabel>
+<dc:date>2007-10-30</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<nsogi:obsoleteTerm>Ottava &lt;Liturgia&gt;</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/6817"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/13790"/>
+
+<skos:scopeNote>Nella liturgia cattolica, periodo di sette giorni che segue a una festività religiosa, di cui è un prolungamento (l'ottava di Pasqua, l'ottava di Natale)</skos:scopeNote>
+<skos:historyNote>Precedentemente: Ottava &lt;Liturgia&gt; (BNI 1956-1985)</skos:historyNote>
+<skos:editorialNote>FONTE: BNI 1956-1985: Ottava &lt;Liturgia&gt;; VLI; DeM; Dev</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/14027">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+<rdfs:label xml:lang="it">Periodi relativi all'ebraismo</rdfs:label>
+<skos:member rdf:resource="http://purl.org/bncf/tid/2214"/>
+
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/12708">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+<rdfs:label xml:lang="it">Periodi relativi alle attività</rdfs:label>
+<skos:member rdf:resource="http://purl.org/bncf/tid/51659"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/35006"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/47134"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/29581"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/36798"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/50319"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/14024"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/32312"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/3071"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/34235"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/35783"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/36057"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/51660"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/25825"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/15618"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/14531"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/16411"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/18651"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/30764"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/30314"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/18927"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/11912"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/6997"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/30634"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/2214"/>
+
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/13929">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+<rdfs:label xml:lang="it">Periodi relativi alle attività religiose</rdfs:label>
+<skos:member rdf:resource="http://purl.org/bncf/tid/18651"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/30764"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/30314"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/18927"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/11912"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/6997"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/30634"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/2214"/>
+
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/13930">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+<rdfs:label xml:lang="it">Periodi storici</rdfs:label>
+<skos:member rdf:resource="http://purl.org/bncf/tid/23011"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/16902"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/29458"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/1066"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/17179"/>
+<skos:member rdf:resource="http://purl.org/bncf/tid/8395"/>
+
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/12000">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+<rdfs:label xml:lang="it">Periodi storico-cronologici</rdfs:label>
+<skos:member rdf:resource="http://purl.org/bncf/tid/16902"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/29458"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/1066"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/17179"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/8395"/>
+
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/23011">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Periodo bellico</skos:prefLabel>
+<dc:date>2008-05-12</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/1117"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/46763"/>
+
+<skos:editorialNote>FONTE: Soggettario; VLI</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/34235">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Periodo di prova</skos:prefLabel>
+<dc:date>2009-10-12</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/6484"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/7206"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/11417"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/13060"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Patto_di_prova"/>
+
+<skos:editorialNote>FONTE: BNI 1956-1985; Treccani.it; Dev; PT ; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/35509">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Periodo vedico</skos:prefLabel>
+<dc:date>2010-01-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/16902"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/35617"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/21435"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Civiltà_vedica"/>
+
+<skos:editorialNote>FONTE: Treccani.it; LUI; Wikipedia(IT)</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: Biblioteche UNIPI</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37514">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Permiano</skos:prefLabel>
+<dc:date>2010-08-07</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/21178"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/39077"/>
+
+<skos:altLabel>Neopermiano</skos:altLabel>
+<skos:altLabel>Periodo permiano</skos:altLabel>
+<skos:altLabel>Permico</skos:altLabel>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Permiano"/>
+
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DSTR; DTS; ESG; Maximus; ThIST; DDC22; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37487">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Piacenziano</skos:prefLabel>
+<dc:date>2010-08-06</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/37512"/>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Piacenziano"/>
+
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DTS; ICS: Piacenzian; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32658">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Pleistocene</skos:prefLabel>
+<dc:date>2009-07-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/33997"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32656"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/34146"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/34681"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/34952"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/38839"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Pleistocene"/>
+
+<skos:editorialNote>FONTE: Soggettario; DeM; Zin; ESG; ThIST; TRT; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37512">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Pliocene</skos:prefLabel>
+<dc:date>2010-08-07</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/37513"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37487"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Pliocene"/>
+
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DSTR; DTS; MB; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/38816">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Potsdamiano</skos:prefLabel>
+<dc:date>2010-10-13</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/31526"/>
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DSTR; ThIST</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/9583">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Preadolescenza</skos:prefLabel>
+<dc:date>2005-06-07</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/9539"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Preadolescenza"/>
+
+<skos:scopeNote>Il periodo dell'adolescenza compreso generalmente tra gli 11 e i 14 anni</skos:scopeNote>
+<skos:editorialNote>FONTE: VLI; DeM; PT; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/31159">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Precambriano</skos:prefLabel>
+<dc:date>2009-03-30</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/23698"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/31782"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/31157"/>
+
+<nsogi:obsoleteTerm>Era arcaica</nsogi:obsoleteTerm>
+
+<skos:altLabel>Era azoica</skos:altLabel>
+<skos:altLabel>Precambrico</skos:altLabel>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Precambriano"/>
+
+<skos:historyNote>Precedentemente: Era arcaica (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario: Era arcaica; VT; ESG; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/8395">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Preistoria</skos:prefLabel>
+<dc:date>2005-05-14</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/29065"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/27915"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/11177"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/33378"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29639"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/3218"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/12008"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/8391"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/17567"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29778"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Preistoria"/>
+
+<skos:definition>Periodo di evoluzione e di sviluppo delle razze e delle culture umane, anteriore ai primi documenti scritti e ricostruibile esclusivamente per mezzo di reperti archeologici che si fa tradizionalmente cominciare poco meno di tre milioni di anni fa (DeM)</skos:definition>
+<skos:editorialNote>FONTE: Soggettario; VLI; DeM; PT; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/39168">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Primavera</skos:prefLabel>
+<dc:date>2010-11-02</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/37317"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Primavera"/>
+
+<skos:editorialNote>FONTE: Treccani.it; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/31157">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Proterozoico</skos:prefLabel>
+<dc:date>2009-03-30</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/31159"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/31156"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Proterozoico"/>
+
+<skos:editorialNote>FONTE: VT; ESG; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/38833">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Pubertà</skos:prefLabel>
+<dc:date>2010-10-13</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/38832"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Pubertà"/>
+
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/46963">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Puntualità</skos:prefLabel>
+<dc:date>2011-10-27</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/13164"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/34579"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85109106"/>
+
+<skos:scopeNote>Rispetto  di una scadenza temporale  prevista o stabilita </skos:scopeNote>
+<skos:editorialNote>FONTE: BNI LiBeR; Treccani.it; DeM; Dev; Zin; PT</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: Idest</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/11912">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Quaresima</skos:prefLabel>
+<dc:date>2006-01-17</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/30181"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/1475"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/8273"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30525"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30471"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/6997"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30634"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85076002"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Quaresima"/>
+
+<skos:scopeNote>Periodo penitenziale di quaranta giorni in preparazione della Pasqua, che ha inizio il mercoledì delle Ceneri e termina il giovedì santo</skos:scopeNote>
+<skos:editorialNote>FONTE: Soggettario; DeM; PT; DDC21; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">263.92</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37948">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Retico</skos:prefLabel>
+<dc:date>2010-08-24</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/37949"/>
+<skos:altLabel>Reziano</skos:altLabel>
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; PT; ICS; ThIST</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/35783">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Ricreazione scolastica</skos:prefLabel>
+<dc:date>2010-01-31</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/20222"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/5071"/>
+
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; Dev: Ricreazione</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/36057">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Riposo festivo</skos:prefLabel>
+<dc:date>2010-03-01</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:altLabel>Riposo domenicale</skos:altLabel>
+<skos:altLabel>Riposo settimanale</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/36798"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/6790"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/14024"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/683"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/3071"/>
+
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; Zin</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: BNI; Biblioteca Bocconi</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/34579">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Ritardo</skos:prefLabel>
+<dc:date>2009-10-26</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<nsogi:obsoleteTerm>Ritardi</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/46963"/>
+
+<skos:scopeNote>Il superamento, per una certa durata, di una scadenza temporale stabilita od opportuna</skos:scopeNote>
+<skos:historyNote>Precedentemente sia al singolare che plurale: Ritardo (BNI non registr.); Ritardi (BNI 1956-1985)</skos:historyNote>
+<skos:editorialNote>FONTE: BNI non registr.; Treccani.it; Dev</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/25863">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Senilità</skos:prefLabel>
+<dc:date>2008-08-28</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:altLabel>Senescenza</skos:altLabel>
+<skos:altLabel>Vecchiaia</skos:altLabel>
+<skos:altLabel>Vecchiezza</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/41201"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/21693"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/43648"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/43146"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Senilità"/>
+
+<skos:scopeNote>Fase avanzata della vita umana, caratterizzata dal decadimento di molte funzioni</skos:scopeNote>
+<skos:editorialNote>FONTE: Soggettario; VLI; DeM; TRT; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">305.26</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/6997">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Settimana Santa</skos:prefLabel>
+<dc:date>2005-04-20</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/8273"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/31893"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/6994"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/11912"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30899"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85061639"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Settimana_Santa"/>
+
+<skos:definition>La settimana che precede la Pasqua, dedicata al ricordo della Passione di Cristo (DeM)</skos:definition>
+<skos:editorialNote>FONTE: Soggettario; VT; DeM; DDC21; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">263.925</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/30634">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Settuagesima</skos:prefLabel>
+<dc:date>2009-03-12</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:altLabel>Domenica di settuagesima</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/20067"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/13790"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/11912"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Domenica_di_Settuagesima"/>
+
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; VT; DeM; PT; EnCat; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/38211">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Siluriano</skos:prefLabel>
+<dc:date>2010-09-15</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/21178"/>
+<skos:altLabel>Gothlandiano</skos:altLabel>
+<skos:altLabel>Periodo siluriano</skos:altLabel>
+<skos:altLabel>Silurico</skos:altLabel>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Siluriano"/>
+
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; Dev; Wikipedia(IT); ThIST; DDC22</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/33679">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Solstizi</skos:prefLabel>
+<dc:date>2009-09-26</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/7282"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/33680"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/33681"/>
+
+<nsogi:obsoleteTerm>Solstizio</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/33197"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/2536"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Solstizio"/>
+
+<skos:historyNote>Precedentemente al singolare: Solstizio (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; BNI LiBeR; Treccani.it; DeM; DTS; ESG; Wikipedia(IT)</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: Idest</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/33680">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Solstizio d'estate</skos:prefLabel>
+<dc:date>2009-09-26</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/33679"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/7177"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh92006772"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Solstizio"/>
+
+<skos:editorialNote>FONTE: BNI LiBeR; Treccani.it; DeM; DTS; Wikipedia(IT)</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: Idest</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/33681">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Solstizio d'inverno</skos:prefLabel>
+<dc:date>2009-09-26</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/33679"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/14408"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85147039"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Solstizio"/>
+
+<skos:editorialNote>FONTE: BNI LiBeR; Treccani.it; DTS; Wikipedia(IT)</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: Idest</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/7282">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Stagioni</skos:prefLabel>
+<dc:date>2005-04-27</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/7284"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/33197"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/7177"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/14408"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/33679"/>
+
+<skos:altLabel>Stagioni astronomiche</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/33239"/>
+
+<skos:editorialNote>FONTE: Soggettario; VLI; DDC21</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">508.2</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/51660">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Stallie</skos:prefLabel>
+<dc:date>2013-08-20</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/43737"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/40546"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/51659"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/17114"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/16426"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85075380"/>
+
+<skos:definition>Nei traffici marittimi, i periodi di tempo stabiliti dalla convenzione o dagli usi, per il carico e lo scarico della merce trasportata da una nave, oltrepassato i quali ha inizio un periodo (controstallia) per il quale il noleggiatore deve pagare un corrispettivo commisurato al tempo del ritardo (PT)</skos:definition>
+<skos:editorialNote>FONTE: Soggettario: Stallie e controstallie; Treccani.it (voce: Stallia e controstallia); DeM; PT; DTGR (voce: Trasporto marittimo); CdN: artt. 444-445</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/38185">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Stampiano</skos:prefLabel>
+<dc:date>2010-09-13</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/37362"/>
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; ThIST</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/1890">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Tempo</skos:prefLabel>
+<dc:date>2005-01-12</dc:date>
+
+<skos:topConceptOf rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/30603"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/1888"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/46963"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/34579"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/41521"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/7284"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/46579"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/7572"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/33840"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/33862"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/33866"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/30252"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/13164"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/51659"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/35006"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/47134"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/29581"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/36798"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/50319"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/14024"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/32312"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/3071"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/34235"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/35783"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/36057"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/51660"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/25825"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/15618"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/14531"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/16411"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/18651"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/30764"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/30314"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/18927"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/11912"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/6997"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/30634"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/2214"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/23011"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/16902"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/29458"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/1066"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/17179"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/8395"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/31009"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/25747"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/25737"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/28788"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/28789"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/29281"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/19722"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/20606"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/30250"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/3872"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/2363"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/27670"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/26431"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/1995"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/18811"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/12335"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Tempo"/>
+
+<skos:historyNote>Precedentemente anche all'interno del termine composto: Tempo nel cinematografo (BNI 1986-1998); Tempo nella letteratura (BNI 1986-1998); Tempo nella letteratura narrativa (BNI 1986-1998); Tempo nell'arte (BNI 1986-1998)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; DeM; PT; DDC21; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/25825">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Tempo di lavorazione</skos:prefLabel>
+<dc:date>2008-08-27</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<nsogi:obsoleteTerm>Tempi di lavorazione</nsogi:obsoleteTerm>
+
+<nsogi:obsoleteTerm>Tempi standard</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/8316"/>
+
+<skos:historyNote>Precedentemente al plurale: Tempi di lavorazione (BNI 1956-1985); in BNI 1956-1985 come termine preferito anche il sinonimo: Tempi standard</skos:historyNote>
+<skos:editorialNote>FONTE: BNI 1956-1985; DeM; Zin</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/15618">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Tempo di percorrenza</skos:prefLabel>
+<dc:date>2007-06-18</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<nsogi:obsoleteTerm>Tempi di viaggio</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/13164"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/32312"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/15763"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/12335"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/322"/>
+
+<skos:definition>Tempo necessario a percorrere un determinato tragitto, stabilito in base alla velocità media ordinaria (DeM)</skos:definition>
+<skos:historyNote>Precedentemente: Tempi di viaggio (BNI 1956-1985)</skos:historyNote>
+<skos:editorialNote>FONTE: BNI 1956-1985: Tempi di viaggio; DeM</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/41521">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Tempo geologico</skos:prefLabel>
+<dc:date>2011-03-16</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/23698"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/33748"/>
+
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; PT</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/14531">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Tempo libero</skos:prefLabel>
+<dc:date>2007-04-26</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/17588"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh85075925"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Tempo_libero"/>
+
+<skos:closeMatch rdf:resource="http://thesaurus.biblio.liuc.it/?4863"/>
+
+<skos:editorialNote>FONTE: BNI 1956-1985; DeM; LIUC; TRT; Wikipedia(IT)</skos:editorialNote>
+<skos:notation rdf:datatype="http://dewey.info">790.1</skos:notation>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/16147">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Tramonto</skos:prefLabel>
+<dc:date>2007-06-28</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/20068"/>
+<nsogi:obsoleteTerm>Tramonti</nsogi:obsoleteTerm>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/19156"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/2536"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/8582"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Tramonto"/>
+
+<skos:historyNote>Precedentemente al plurale: Tramonti (BNI non registr.)</skos:historyNote>
+<skos:editorialNote>FONTE: BNI non registr.; VLI; DeM; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/32513">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Triassico</skos:prefLabel>
+<dc:date>2009-07-09</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/31505"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/48075"/>
+
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37949"/>
+
+<skos:altLabel>Periodo Triassico</skos:altLabel>
+<skos:altLabel>Trias</skos:altLabel>
+<skos:altLabel>Triasico</skos:altLabel>
+<skos:related rdf:resource="http://purl.org/bncf/tid/32510"/>
+
+<skos:closeMatch rdf:resource="http://id.loc.gov/authorities/sh98002341"/>
+
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Triassico"/>
+
+<skos:historyNote>In Soggettario come termine preferito anche il sinonimo: Trias</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; ESG; ThIST; DDC22; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/48075">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Triassico inferiore</skos:prefLabel>
+<dc:date>2012-07-24</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32513"/>
+<skos:altLabel>Periodo triasico inferiore</skos:altLabel>
+<skos:altLabel>Periodo triassico inferiore</skos:altLabel>
+<skos:altLabel>Trias inferiore</skos:altLabel>
+<skos:altLabel>Triasico inferiore</skos:altLabel>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Triassico_inferiore"/>
+
+<skos:editorialNote>FONTE: Treccani.it; Zin (voce: Triassico); MTG; ThIST; Wikipedia(IT)</skos:editorialNote>
+<skos:editorialNote>AGENZIA CATALOGRAFICA/PROPONENTE: Biblioteca Bocconi</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/37949">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Triassico superiore</skos:prefLabel>
+<dc:date>2010-08-24</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/32513"/>
+<skos:narrower rdf:resource="http://purl.org/bncf/tid/37948"/>
+
+<nsogi:obsoleteTerm>Trias superiore</nsogi:obsoleteTerm>
+
+<skos:altLabel>Triasico superiore</skos:altLabel>
+<skos:closeMatch rdf:resource="http://it.dbpedia.org/resource/Triassico_superiore"/>
+
+<skos:historyNote>Precedentemente: Trias superiore (Soggettario)</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario: Trias superiore; ThIST; Wikipedia(IT)</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/39077">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Turingiano</skos:prefLabel>
+<dc:date>2010-10-25</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/37514"/>
+<skos:altLabel>Neopermico</skos:altLabel>
+<skos:altLabel>Thuringiano</skos:altLabel>
+<skos:historyNote>Mai usato in BNI fino al 2009</skos:historyNote>
+<skos:editorialNote>FONTE: Soggettario; Treccani.it; DeM; DSTR; ThIST</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/5463">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Turni di lavoro</skos:prefLabel>
+<dc:date>2005-03-23</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/3071"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/28528"/>
+
+<skos:editorialNote>FONTE: BNI 1956-1985; VLI; PT; TRT</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/16411">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+<skos:prefLabel xml:lang="it">Vacanze estive</skos:prefLabel>
+<dc:date>2007-07-05</dc:date>
+
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/ThesCF14"/>
+<skos:inScheme rdf:resource="http://purl.org/bncf/tid/Thes"/>
+<skos:broader rdf:resource="http://purl.org/bncf/tid/1890"/>
+<skos:related rdf:resource="http://purl.org/bncf/tid/35032"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/1472"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/12771"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/5071"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/18188"/>
+
+<skos:related rdf:resource="http://purl.org/bncf/tid/17588"/>
+
+<skos:editorialNote>FONTE: BNI 1956-1985; VT; DeM; Dev</skos:editorialNote>
+</rdf:Description>
+<rdf:Description rdf:about="http://purl.org/bncf/tid/13931">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+<rdfs:label xml:lang="it">Periodi relativi al cristianesimo</rdfs:label>
+<skos:member rdf:resource="http://purl.org/bncf/tid/18651"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/30764"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/30314"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/18927"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/11912"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/6997"/>
+
+<skos:member rdf:resource="http://purl.org/bncf/tid/30634"/>
+
+</rdf:Description>
+</rdf:RDF>
